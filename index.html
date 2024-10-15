@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Merge Witches</title>
+    <link rel="icon" href="img/image.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header__background"></div>
+      <nav class="navigation container">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="/" class="navigation__link">Home</a>
+          </li>
+          <li class="navigation__item">
+            <a href="/#advantages" class="navigation__link">Advantages</a>
+          </li>
+          <li class="navigation__item">
+            <a href="/#reviews" class="navigation__link">User Reviews</a>
+          </li>
+          <li class="navigation__item">
+            <a href="/#about" class="navigation__link">About Us</a>
+          </li>
+          <li class="navigation__item">
+            <a href="/#gallery" class="navigation__link">Gallery</a>
+          </li>
+        </ul>
+
+        <div class="header__button-wrapper">
+          <button type="button" class="header__icon-button" data-menu-button>
+            <svg class="header__icon header__icon--menu">
+              <use href="./img/sprite.svg#icon-menu"></use>
+            </svg>
+            <svg class="header__icon header__icon--close">
+              <use href="./img/sprite.svg#icon-cancel"></use>
+            </svg>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="home" id="home">
+        <div class="home__wrapper container">
+          <div class="home__container-top">
+            <img class="home__title-image" src="images/title.png" alt="" />
+            <p class="home-text">Unleash Your Magic, Conquer the Puzzles!</p>
+
+            <a
+              class="home__google-button_link button-home"
+              href="https://play.google.com/store/apps/details?id=com.wjoy.witch"
+              target="_blank"
+            >
+              <img
+                class="home__google-button_image"
+                src="./img/button.png"
+                alt=""
+              />
+            </a>
+          </div>
+          <div data-aos="fade-up" class="home__image-container">
+            <img class="home__image" src="./img/characters.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section class="advantages" id="advantages">
+        <h2 class="advantages-title">Advantages</h2>
+
+        <div class="advantages__container">
+          <ul data-aos="fade-down" class="advantages__list">
+            <li class="advantages__item">
+              <div class="advantages-avatar-info">
+                <img
+                  class="advantages-avatar"
+                  src="./img/advantages/adv-1.png"
+                  alt="User Avatar"
+                />
+              </div>
+              <div class="advantages-content">
+                <p class="advantages-quote">
+                  Engaging Puzzles: Solve a variety of challenging magic-themed
+                  puzzles.
+                </p>
+              </div>
+            </li>
+            <li class="advantages__item">
+              <div class="advantages-avatar-info">
+                <img
+                  class="advantages-avatar"
+                  src="./img/advantages/adv-2.png"
+                  alt="User Avatar"
+                />
+              </div>
+              <div class="advantages-content">
+                <p class="advantages-quote">
+                  Magical Atmosphere: Stunning visuals and enchanting sound
+                  effects create an immersive magical world.
+                </p>
+              </div>
+            </li>
+            <li class="advantages__item">
+              <div class="advantages-avatar-info">
+                <img
+                  class="advantages-avatar"
+                  src="./img/advantages/adv-3.png"
+                  alt="User Avatar"
+                />
+              </div>
+              <div class="advantages-content">
+                <p class="advantages-quote">
+                  Unique Characters: Meet a cast of magical witches and wizards
+                  as you progress.
+                </p>
+              </div>
+            </li>
+            <li class="advantages__item">
+              <div class="advantages-avatar-info">
+                <img
+                  class="advantages-avatar"
+                  src="./img/advantages/adv-4.png"
+                  alt="User Avatar"
+                />
+              </div>
+              <div class="advantages-content">
+                <p class="advantages-quote">
+                  Regular Updates: New levels, spells, and events keep the game
+                  fresh and exciting.
+                </p>
+              </div>
+            </li>
+            <li class="advantages__item">
+              <div class="advantages-avatar-info">
+                <img
+                  class="advantages-avatar"
+                  src="./img/advantages/adv-5.png"
+                  alt="User Avatar"
+                />
+              </div>
+              <div class="advantages-content">
+                <p class="advantages-quote">
+                  Offline Mode: Enjoy the game without an internet connection.
+                </p>
+              </div>
+            </li>
+          </ul>
+          <a
+            class="advantages-button-link button-advantages"
+            href="https://play.google.com/store/apps/details?id=com.wjoy.witch"
+            target="_blank"
+          >
+            <img
+              class="advantages-button-image"
+              src="./img/button.png"
+              alt=""
+            />
+          </a>
+        </div>
+
+        <ul data-aos="fade-down" class="advantages-list">
+          <li class="advantages__item">
+            <div class="advantages-avatar-info">
+              <img
+                class="advantages-avatar"
+                src="./img/advantages/adv-1.png"
+                alt="User Avatar"
+              />
+            </div>
+            <div class="advantages-content">
+              <p class="advantages-quote">
+                Engaging Puzzles: Solve a variety of challenging magic-themed
+                puzzles.
+              </p>
+            </div>
+          </li>
+          <li class="advantages__item">
+            <div class="advantages-avatar-info">
+              <img
+                class="advantages-avatar"
+                src="./img/advantages/adv-2.png"
+                alt="User Avatar"
+              />
+            </div>
+            <div class="advantages-content">
+              <p class="advantages-quote">
+                Magical Atmosphere: Stunning visuals and enchanting sound
+                effects create an immersive magical world.
+              </p>
+            </div>
+          </li>
+          <li class="advantages__item">
+            <div class="advantages-avatar-info">
+              <img
+                class="advantages-avatar"
+                src="./img/advantages/adv-3.png"
+                alt="User Avatar"
+              />
+            </div>
+            <div class="advantages-content">
+              <p class="advantages-quote">
+                Unique Characters: Meet a cast of magical witches and wizards as
+                you progress.
+              </p>
+            </div>
+          </li>
+          <li class="advantages__item">
+            <div class="advantages-avatar-info">
+              <img
+                class="advantages-avatar"
+                src="./img/advantages/adv-4.png"
+                alt="User Avatar"
+              />
+            </div>
+            <div class="advantages-content">
+              <p class="advantages-quote">
+                Regular Updates: New levels, spells, and events keep the game
+                fresh and exciting.
+              </p>
+            </div>
+          </li>
+          <li class="advantages__item">
+            <div class="advantages-avatar-info">
+              <img
+                class="advantages-avatar"
+                src="./img/advantages/adv-5.png"
+                alt="User Avatar"
+              />
+            </div>
+            <div class="advantages-content">
+              <p class="advantages-quote">
+                Offline Mode: Enjoy the game without an internet connection.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section class="reviews" id="reviews">
+        <h2 class="reviews-title">User Reviews</h2>
+        <div class="reviews__container">
+          <ul data-aos="fade-down" class="reviews__list">
+            <li class="reviews__item">
+              <div class="reviews-avatar-info">
+                <img
+                  class="reviews-avatar"
+                  src="./img/reviews/image.png"
+                  alt="User Avatar"
+                />
+                <h3 class="reviews-name">SpellCaster:</h3>
+              </div>
+              <div class="reviews-content">
+                <p class="reviews-quote">
+                  Addictive gameplay and beautiful graphics. I can't put it
+                  down!
+                </p>
+              </div>
+            </li>
+            <li class="reviews__item">
+              <div class="reviews-avatar-info">
+                <img
+                  class="reviews-avatar"
+                  src="./img/reviews/image.png"
+                  alt="User Avatar"
+                />
+                <h3 class="reviews-name">MagicLover:</h3>
+              </div>
+              <div class="reviews-content">
+                <p class="reviews-quote">
+                  The puzzles are challenging, but the power-ups help a lot!
+                </p>
+              </div>
+            </li>
+            <li class="reviews__item">
+              <div class="reviews-avatar-info">
+                <img
+                  class="reviews-avatar"
+                  src="./img/reviews/image.png"
+                  alt="User Avatar"
+                />
+                <h3 class="reviews-name">WitchMaster:</h3>
+              </div>
+              <div class="reviews-content">
+                <p class="reviews-quote">
+                  One of the best puzzle games I've played. Love the magical
+                  theme.
+                </p>
+              </div>
+            </li>
+            <li class="reviews__item">
+              <div class="reviews-avatar-info">
+                <img
+                  class="reviews-avatar"
+                  src="./img/reviews/image.png"
+                  alt="User Avatar"
+                />
+                <h3 class="reviews-name">EnchantingWizard:</h3>
+              </div>
+              <div class="reviews-content">
+                <p class="reviews-quote">
+                  The daily rewards keep me engaged, and I love the variety of
+                  levels.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="reviews-button-container">
+          <button class="gallery-button reviews-button-left">
+            <img
+              class="gallery-button-icon"
+              src="img/gallery/button.png"
+              alt=""
+            />
+          </button>
+          <button class="gallery-button reviews-button-right">
+            <img
+              class="gallery-button-icon"
+              src="img/gallery/button.png"
+              alt=""
+            />
+          </button>
+        </div>
+      </section>
+
+      <section class="about padding--responsive" id="about">
+        <h2 class="about__title">About US</h2>
+        <div class="about__wrapper container">
+          <div class="about__wrapper--top">
+            <p class="about__text">
+              In Merge Witches, players embark on a magical journey where they
+              assume the role of a witch tasked with restoring her realm. The
+              game involves merging different items, such as magical
+              ingredients, to create powerful spells and items. As players
+              progress through various levels, they solve challenging puzzles to
+              unlock new areas, collect resources, and discover hidden
+              treasures.
+            </p>
+          </div>
+          <a
+            class="about__image-wrapper"
+            href="https://play.google.com/store/apps/details?id=com.wjoy.witch"
+            target="_blank"
+          >
+            <img class="about-image" src="./img/button.png" alt="" />
+          </a>
+        </div>
+      </section>
+
+      <section class="gallery" id="gallery">
+        <h2 class="section--title visually-hidden">Gallery</h2>
+
+        <div class="gallery__container">
+          <ul data-aos="fade-down" class="gallery__list">
+            <li class="gallery__item">
+              <img
+                class="gallery__image"
+                src="./img/gallery/gallery-1.png"
+                alt=""
+              />
+            </li>
+            <li class="gallery__item">
+              <img
+                class="gallery__image"
+                src="./img/gallery/gallery-2.png"
+                alt=""
+              />
+            </li>
+            <li class="gallery__item">
+              <img
+                class="gallery__image"
+                src="./img/gallery/gallery-3.png"
+                alt=""
+              />
+            </li>
+            <li class="gallery__item">
+              <img
+                class="gallery__image"
+                src="./img/gallery/gallery-4.png"
+                alt=""
+              />
+            </li>
+          </ul>
+        </div>
+
+        <div class="gallery-button-container">
+          <button class="gallery-button gallery-button-left">
+            <img
+              class="gallery-button-icon"
+              src="img/gallery/button.png"
+              alt=""
+            />
+          </button>
+          <button class="gallery-button gallery-button-right">
+            <img
+              class="gallery-button-icon"
+              src="img/gallery/button.png"
+              alt=""
+            />
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-wrapper">
+          <img src="./img/name.png" alt="name" class="footer-img" />
+          <a class="footer-text" href="policy.html">Privacy policy </a>
+          <a class="footer-text" href="terms.html">Terms and conditions</a>
+        </div>
+        <p class="footer-copyright">
+          ©2024 ProGameTide.com, All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script src="js/mobile-menu.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="js/slick.js"></script>
+  </body>
+</html>
